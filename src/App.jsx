@@ -1,10 +1,10 @@
-import './App.css'
+import TrilhaConhecimento from "./pages/trilha/Trilha"
 
 function App() {
 
   return (
     <>
-
+    <TrilhaConhecimento/>
        
     </>
   )
