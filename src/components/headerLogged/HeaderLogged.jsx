@@ -11,6 +11,8 @@ const HeaderLogged= () => {
           <a href="../inicial">
             <img src={logo} alt="" />
           </a>
+
+          
           <div className="container">
             <nav className="navigation">
               <a href="../inicial/index.html">Home</a>

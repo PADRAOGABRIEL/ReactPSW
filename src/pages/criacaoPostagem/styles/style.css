@@ -1,0 +1,118 @@
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 220px;
+    left: 0;
+    right: 0;
+}
+
+.container2 form {
+    border-radius: 3px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 730px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.container2 form input, textarea {
+    color: var(--preto);
+}
+
+.container2 form p {
+    color: var(--preto);
+    font-size: 24px;
+}
+
+.container2 form label {
+    color: var(--cinza);
+    font-size: 14px;
+}
+.container2 form input, textarea {
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background-color: #FAFAFC;
+    padding: 10px;
+}
+
+.subheader {
+    background-color: var(--laranja);
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.send-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.send-box div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #A0A0B2;
+}
+.send-box button {
+    height: 56px;
+    width: 195px;
+    background-color: #3e7c17;
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.header-top {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header-top div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-top img {
+    width: 50px;
+    
+}
+
+.header-top .pointer {
+    font-size: 20px;
+}
+.header-botton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-botton h2 {
+    font-size: 25px;
+    margin-right: 300px;
+    text-align: center;
+    width: 100%;
+    color: var(--letra_branca);
+}
+.header-botton p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: var(--letra_branca);
+}

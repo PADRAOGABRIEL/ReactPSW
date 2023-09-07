@@ -1,33 +1,53 @@
 import React from 'react'
-import Header from '../../components/header/header'
+import HeaderLogged from '../../components/headerLogged/HeaderLogged'
 import "../../styles/index.css"
-
+import "./styles/style.css"
 
 const CreatePost = () => {
   return (
     <>
-    <Header/>
+    <HeaderLogged/>
 
-    <header>
-        <div className="header-top">
-            <p className="pointer"></p>
-            <div>
-            <img src="./assets/logo-branca.svg"/>
-            <img src="https://generation-sessions.s3.amazonaws.com/774de11c4dc2ef4ef1e229960966e36e/img/mask-group@2x.png"/>
-            </div>
-        </div>
-
+    <div className="subheader">
+    
         <div className="header-botton">
-            <div>
-                <h2>Cadastre suas trilhas,<br/>Divulgue o aprendizado!</h2>
-                <p className="slogan">Para cadastrar suas trilhas, o primeiro passo é <br/>preencher esse formulário</p>
-            </div>
+          <div>
+            <h2>
+              Cadastre suas trilhas,
+              Divulgue o aprendizado!
+            </h2>
+            <br/>
+            <p className="slogan">
+              Para cadastrar suas trilhas, o primeiro passo é
+              preencher esse formulário
+            </p>
+          </div>
         </div>
+      <br/>
 
-        
+      <section className="container2">
+        <form>
+          <p>Escreva sua postagem</p>
+          <hr />
+          <label>Título da postagem</label>
+          <input type="text" />
+          <label>Descrição da postagem</label>
+          <textarea></textarea>
 
-    </header>
-
+          <div className="send-box">
+            <div>
+              <img src="" alt="Imagem Importante" />
+              <p>
+                Importante!
+            <br />
+                Preencha todos os dados
+              </p>
+            </div>
+            <button>Salvar cadastro</button>
+          </div>
+        </form>
+      </section>
+    </div>
     </>
   )
 }

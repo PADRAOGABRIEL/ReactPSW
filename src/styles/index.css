@@ -8,6 +8,7 @@
   --cinza: #9C98A6;
   --preto: #32264D;
   --placeholder: #C1BCCC;
+  --letra_branca: #EEEEEE;
 
   font-size: 62.5%; /* 10px */
   background: var(--background-color);
