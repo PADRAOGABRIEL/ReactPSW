@@ -1,11 +1,13 @@
-import Header from './components/header/Header.jsx'
+import HeaderLogged from "./components/headerLogged/HeaderLogged"
+import CreatePost from "./pages/criacaoPostagem/CreatePost"
 
 function App() {
 
   return (
     <>
-    <Header></Header>
-      
+      {/* <CreatePost/> */}
+
+      <HeaderLogged/>
     </>
   )
 }
