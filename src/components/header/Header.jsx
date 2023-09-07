@@ -4,7 +4,7 @@ import './styles/style.css';
 import './styles/index.css';
 import logo from '../../assets/logo-branca.svg';
 
-const Professor = () => {
+const Header = () => {
   return (
     <div>
       <header>
