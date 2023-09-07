@@ -4,13 +4,10 @@ import "../../styles/index.css"
 
 const CreatePost = () => {
   return (
-
-
-
     <>
     <Header/>
 
-    
+
     </>
   )
 }
