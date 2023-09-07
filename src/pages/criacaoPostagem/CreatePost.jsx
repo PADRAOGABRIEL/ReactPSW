@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../components/header/Header'
+import Header from '../../components/header/header'
 import "../../styles/index.css"
 
 
@@ -10,7 +10,7 @@ const CreatePost = () => {
 
     <header>
         <div className="header-top">
-            <p class="pointer"></p>
+            <p className="pointer"></p>
             <div>
             <img src="./assets/logo-branca.svg"/>
             <img src="https://generation-sessions.s3.amazonaws.com/774de11c4dc2ef4ef1e229960966e36e/img/mask-group@2x.png"/>
@@ -23,6 +23,8 @@ const CreatePost = () => {
                 <p className="slogan">Para cadastrar suas trilhas, o primeiro passo é <br/>preencher esse formulário</p>
             </div>
         </div>
+
+        
 
     </header>
 
