@@ -1,11 +1,11 @@
-import Professor from './pages/professor/professor'
+import './App.css'
+
 function App() {
 
   return (
     <>
-    <Professor/>
-  
 
+      
     </>
   )
 }
