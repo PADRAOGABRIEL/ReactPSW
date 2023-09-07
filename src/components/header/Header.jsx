@@ -35,4 +35,4 @@ const Header = () => {
   );
 };
 
-export default Professor;
+export default Header;
